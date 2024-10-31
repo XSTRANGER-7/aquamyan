@@ -1,0 +1,5 @@
+[
+    { "id": 1, "category": "Food", "quantity": 100, "location": "Yangon", "status": "Pending", "type": "Donor" },
+    { "id": 2, "category": "Clothing", "quantity": 50, "location": "Mandalay", "status": "Delivered", "type": "Donor" }
+  ]
+  
