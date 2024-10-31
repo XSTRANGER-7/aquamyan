@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await login(username, password);
-      navigate('/dashboard'); // Redirect to dashboard on successful login
+      navigate('/'); // Redirect to dashboard on successful login
     } catch (error) {
       setLoginError(error.message);
     }
