@@ -30,18 +30,40 @@ const EmergencySOS = () => {
             <span className="text-white text-lg font-bold">SOS</span>
           </motion.div>
 
-          {/* Wave Animation */}
+          {/* Wave Animations */}
           {isActivated && (
-            <motion.div
-              className="absolute rounded-full border-4 border-red-400"
-              initial={{ scale: 1, opacity: 0.6 }}
-              animate={{ scale: 2, opacity: 0 }}
-              transition={{ duration: 1 }}
-              style={{
-                width: '150px',
-                height: '150px',
-              }}
-            />
+            <>
+              <motion.div
+                className="absolute rounded-full border-4 border-red-400"
+                initial={{ scale: 1, opacity: 0.6 }}
+                animate={{ scale: 2, opacity: 0 }}
+                transition={{ duration: 1 }}
+                style={{
+                  width: '150px',
+                  height: '150px',
+                }}
+              />
+              {/* <motion.div
+                className="absolute rounded-full border-4 border-red-400"
+                initial={{ scale: 1, opacity: 0.6 }}
+                animate={{ scale: 2, opacity: 0 }}
+                transition={{ duration: 1, delay: 0.3 }}
+                style={{
+                  width: '150px',
+                  height: '150px',
+                }}
+              /> */}
+              <motion.div
+                className="absolute rounded-full border-4 border-red-400"
+                initial={{ scale: 1, opacity: 0.6 }}
+                animate={{ scale: 2, opacity: 0 }}
+                transition={{ duration: 1, delay: 0.6 }}
+                style={{
+                  width: '150px',
+                  height: '150px',
+                }}
+              />
+            </>
           )}
         </div>
 
